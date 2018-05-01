@@ -1,0 +1,437 @@
+<html>
+
+<head>
+
+  <title>Home - BBC News</title>
+
+  <style type="text/css">
+
+    #topbar{
+
+    	width:1050px;
+    	margin:0 auto;
+      height: 40px;
+    	
+    }
+
+    body{
+
+      margin:0;
+      padding:0;
+      font-family: helvetica, arial, sans-serif;
+    }
+
+    #logo{
+
+      margin-top: 8px;
+      width: 85px;
+      float: left; 
+      margin-right: 8px;
+    }
+    .topbar-section{
+
+      float:left;
+      border-left: 1px #cccccc solid;
+      height: :100%;
+    }
+
+    #signin-image{
+      width:28px;
+      margin-top: 8px;
+      margin-left: 12px;
+      float:left;
+      margin-bottom: 8px;
+    }
+
+    #signin-text{
+      font-weight: bold;
+      font-size: 90%;
+      margin-top: 10px;
+      position: relative;
+      top:13px;
+      padding-right: 60px;
+    }
+
+    .topbar-menu{
+      font-weight: bold;
+      color:#333333;
+      font-size: 85%;
+      padding: 12px 14px 0 14px;
+      height: 30px;
+    }
+
+    #search-box{
+      background-color: #E4E4E4;
+      font-weight: bold;
+      border: none;
+      padding: 4.5px;
+      margin: 5px 0 5px 5px;
+      float: left;
+    }
+
+    #search{
+      margin-top: 5px;
+      float:left;
+      height: 24px;
+    }
+
+    .clear{
+      clear: both;
+    }
+
+    #menu-bar-container{
+      background-color: #BB1919;
+      width: 100%;
+      height: 65px;
+      border-top: 1px solid #cccccc;
+    }
+
+    #menu-bar{
+      width:1050px;
+      margin:0 auto;
+    }
+
+    h1{
+      padding: 0;
+      margin: 0;
+      color: white;
+      font-size: 40px;
+      font-weight: normal;
+      padding-top: 10px;
+      float: left;
+    }
+
+    #local-news{
+      border: 1px #BB4545 solid;
+      height: 30px;
+      position: relative;
+      top: 15px;
+      float: right;
+      margin-right: 43px;
+      margin-top: 2px;
+      
+    }
+
+    #local-news a{
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      position: relative;
+      top: -8px;
+    }
+
+    #local-news a:hover{
+      text-decoration: underline;
+    }
+
+    #local-news img{
+      height: 30px; 
+      position: relative;
+      top: -0.1px;
+    }
+
+    #menu-bar-2-container{
+      background-color: #A91717;
+      width: 100%;
+    }
+
+    #menu-bar-2{
+      width: 1050px;
+      margin: 0 auto;
+      height: 35px;
+    }
+
+    #menu-bar-2 a{
+      color: white;
+      text-decoration: none;
+      padding: 0 10px;
+      border-right: 1px solid #BB4545;
+      font-size: 15px;
+      position: relative;
+      top: 8px;
+      padding: 8px;
+    }
+
+    #menu-bar-2 a:hover{
+      text-decoration: underline;
+    }
+
+    .no-border{
+      border:none !important;
+    }
+
+    #down-arrow{
+      height: 30px; 
+      float: right;
+      margin-right: 65px;
+      position: relative;
+      bottom: 17px;
+    }
+
+    #page-container{
+      width: 1050px;
+      margin: 0 auto;
+    }
+
+    h2{
+      font-weight: normal;
+      margin-top: -6px;
+      font-size: 20px;
+      margin-left: 5px;
+      color: #404040;
+      border-bottom: 4px solid #BB1919;
+      width: 102px;
+    }
+
+    h3 a{
+      color:black;
+      font-size: 30px;
+      margin-left: 6px;
+      text-decoration: none;
+    }
+
+    h3 a:hover{
+      color:#1167a8;
+    }
+
+    #article-summary{
+      color: #5a5a5a;
+      width:260px;
+      margin-left: 6px;
+      font-size: 14px;
+      float:left;
+    }
+
+    #article-summary img{
+    position: relative;
+    top: 3.5px;
+    }
+
+    #article-summary a{
+      text-decoration: none;
+      color: #a91717;
+      border-left: 1px solid #cccccc;
+      padding-left: 8px;
+    }
+
+    #article-summary a:hover{
+      color:#1167a8;
+    }
+
+    #date{
+      padding-right: 8px;
+    }
+
+    #article-container{
+      float:left;
+      width: 665px;
+      border-right: 1px solid #cccccc;
+      height: 50%;
+      padding-right: 20px;
+    }
+
+    #article-hr{
+      border-top:1px solid #a91717;
+      width: 50px;
+    }
+
+    #advertisement a{
+      color: #767676;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bold;
+      margin-left: 120px;
+    }
+
+    #advertisement a:hover{
+      text-decoration: underline;
+    }
+
+    #sky{
+      border-top: 1px solid #cccccc;
+      width: 63%;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+	<div id="topbar">
+
+  <img id="logo" src="bbc-logo.png">
+
+  <div id="sign-div" class="topbar-section">
+
+    <img id="signin-image" src="signin-logo.png">
+
+    <span id="signin-text">Sign in</span>
+
+  </div>
+
+  <div class="topbar-section topbar-menu">
+
+   News
+
+  </div>
+
+  <div class="topbar-section topbar-menu">
+
+   Sport
+
+  </div>
+
+  <div class="topbar-section topbar-menu">
+
+   Weather
+
+  </div>
+
+  <div class="topbar-section topbar-menu">
+
+   Shop
+
+  </div>
+
+  <div class="topbar-section topbar-menu">
+
+  Earth
+
+  </div>
+
+  <div class="topbar-section topbar-menu">
+
+   Travel
+
+  </div>
+
+  <div class="topbar-section topbar-menu">
+
+   More
+   <img src="more-options.png">
+
+  </div>
+
+  <div class="topbar-section">
+
+    <input id="search-box" type="text" value="search">
+
+    <input type="image" id="search" src="search.png">
+
+  </div>
+
+   </div>
+
+   <div class="clear"></div>
+
+   <div id="menu-bar-container">
+
+   <div id="menu-bar">
+
+    <h1>NEWS</h1>
+
+    <div id="local-news">
+
+     <a href=""> Find local news</a>
+
+      <img src="find.png">
+
+    </div>
+
+    <div class="clear"></div>
+
+   </div>
+
+   <div id="menu-bar-2-container">
+
+   <div id="menu-bar-2">
+
+    <a href="">Home</a>
+
+    <a href="">Video</a>
+
+    <a href="">World</a>
+
+    <a href="">Asia</a>
+
+    <a href="">UK</a>
+
+    <a href="">Business</a>
+
+    <a href="">Tech</a>
+
+    <a href="">Science</a>
+
+    <a href="">Magazine</a>
+
+    <a href="">Entertainment & Arts</a>
+
+    <a href="">Health</a>
+
+    <a href="">World News TV</a>
+
+    <a href="" class="no-border">More</a>
+
+    <img id="down-arrow" src="down-arrow.png">
+
+   </div>
+
+   </div>
+
+   </div>
+
+   <div class="clear"></div>
+
+   <div id="page-container">
+
+   <div id="main-artivle">
+
+    <h2>Technology</h2>
+
+    <div id="article-container">
+
+    <h3><a href="">GoPro launches 360-degree camera</a></h3>
+
+    <div id="article-summary">
+
+      <p>The Fusion marks loss-making GoPro's latest effort to boost its fortunes with a new type of product.</p>
+
+      <p><img src="clock.png"><span id="date">29 September 2017</span><a href="">Technology</a></p>
+
+        <hr id="article-hr" align="left">
+
+    </div>
+
+    <img src="article-img.png">
+
+    </div> 
+
+   </div>
+
+   <div id="advertisement">
+
+    <p><a href="">ADVERTISEMENT</a></p>
+
+   </div>
+
+       <div id="watch-listen">
+
+        <h4>Watch/Listen</h4>
+
+       </div>
+
+       <div class="clear"></div>
+
+        <div id="sky">
+
+          <img src="sky.png">
+
+         </div>
+
+   </div>
+
+</body>
+
+</html>
